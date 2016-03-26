@@ -4,6 +4,6 @@ class Greeter
   end
 
   def say_hello(name)
-    puts "#{phrase} #{name}"
+    "#{@phrase} #{name}"
   end
 end
