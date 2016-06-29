@@ -1,5 +1,5 @@
-require_relative '../spec_helper'
-require_relative '../../lib/mutant/greeter'
+require_relative 'spec_helper'
+require_relative '../lib/hello_world/greeter'
 
 RSpec.describe Greeter do
   describe '#say_hello' do
