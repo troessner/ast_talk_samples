@@ -1,7 +1,7 @@
 class Greeter
-  def initialize(phrase)
-    @enabled = true
+  def initialize(phrase, enabled = true)
     @phrase = phrase
+    @enabled = enabled
   end
 
   def say_hello(name)
