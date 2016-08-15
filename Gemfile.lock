@@ -22,6 +22,7 @@ GIT
       rspec-core (>= 3.3.0, < 3.5.0)
 
 GEM
+  remote: https://rubygems.org/
   specs:
     abstract_type (0.0.7)
     adamantium (0.2.0)
@@ -94,4 +95,4 @@ DEPENDENCIES
   rspec-mocks
 
 BUNDLED WITH
-   1.11.2
+   1.12.5
